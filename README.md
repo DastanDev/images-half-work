@@ -21,10 +21,10 @@ Please follow the instructions below and fill in the information requested when 
 ## Build Instructions
 1. Create .env file in the root directory.
 2. Add these variables inside the .env file:
-- JWT_SECRET=anything_secret
+- JWT_SECRET=<something_secret>
 - DB_HOST=<your_host>
 - DB_USER=<database_user>
-- DB_PASSWORD=<password>
+- DB_PASSWORD=<database_user_password>
 - DB=<database_name>
 
 ## Run Instructions
