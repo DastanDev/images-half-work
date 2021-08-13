@@ -19,9 +19,14 @@ Please follow the instructions below and fill in the information requested when 
 # Build/Run Instructions
 
 ## Build Instructions
-1. steps here
-2. steps here
+1. Create .env file in the root directory.
+2. Add these variables inside the .env file:
+- JWT_SECRET=anything_secret
+- DB_HOST=<your_host>
+- DB_USER=<database_user>
+- DB_PASSWORD=<password>
+- DB=<database_name>
 
 ## Run Instructions
-1. steps here
-2. steps here 
+1. npm install
+2. npm start
